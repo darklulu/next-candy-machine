@@ -55,6 +55,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: x-large;
 }
 
 .nav-item {
@@ -117,6 +118,7 @@ a {
 
 }
 
+
 .img-caroussel{
     height: 600px;
     width: 600px;
@@ -130,10 +132,10 @@ a {
 }
 
 .desc-caroussel{
-    height: 600px;
+    height: 500px;
     width: 600px;
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 12%;
     border-radius: 20%;
     background-color: #fff;
     align-content: center;
@@ -144,4 +146,8 @@ a {
     font-size: x-large;
     color: darkslategrey;
     font-family: 'Permanent Marker', cursive;
+}
+
+.mint{
+    
 }
