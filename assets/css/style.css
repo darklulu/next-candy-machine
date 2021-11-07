@@ -4,11 +4,13 @@ html,body{
     color: white;
     background-image: url("../images/5509862.jpg");
     margin: 0px;
+    font-family: 'Permanent Marker', cursive;
 }
 
 section{
 	height: 100%;
 	width: 100%;
+    display: flex;
 }
 
 h1{
@@ -60,7 +62,6 @@ a {
 }
 
 .nav-link{
-    font-size: 1.6rem;
     font-weight: 400;
     color: #475569;
 }
@@ -116,29 +117,31 @@ a {
 
 }
 
-.photobanner{
-    width: 50%;
-    float: left;
-    height: 100%;
-}
-
-.first{
+.img-caroussel{
+    height: 600px;
+    width: 600px;
     margin-left: 10%;
     margin-top: 10%;
-    width: 500px;
-    height: 500px;
 }
 
-.description{
-    width: 50%;
-    float: right;
+.img-caroussel img{
     height: 100%;
-    text-align: left;
-    
-
+    width: 100%;
 }
-.description p {
-    font-size: 40px;
+
+.desc-caroussel{
+    height: 600px;
+    width: 600px;
+    margin-left: 10%;
     margin-top: 10%;
-    margin-right: 10%;
+    border-radius: 20%;
+    background-color: #fff;
+    align-content: center;
+}
+
+.desc-caroussel p{
+    text-align: center;
+    font-size: x-large;
+    color: darkslategrey;
+    font-family: 'Permanent Marker', cursive;
 }
