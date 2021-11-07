@@ -26,8 +26,8 @@ function startTimer() {
     setInterval(displayNextImage, 500);
 }
 var images = [], x = -1;
-images[0] = "/assets/images/56.png";
-images[1] = "/assets/images/65.png";
-images[2] = "/assets/images/91.png";
-images[3] = "/assets/images/97.png";
+images[0] = "assets/images/56.png";
+images[1] = "assets/images/65.png";
+images[2] = "assets/images/91.png";
+images[3] = "assets/images/97.png";
     
