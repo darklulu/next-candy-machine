@@ -1,6 +1,5 @@
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
-
 hamburger.addEventListener("click", mobileMenu);
 
 function mobileMenu() {
@@ -31,7 +30,7 @@ images[1] = "assets/images/65.png";
 images[2] = "assets/images/91.png";
 images[3] = "assets/images/97.png";
 
-
+//pb car ne trouve pas img-carou --> est exécuté avant que root (et donc img-carou) ne soit créée 
 
 
     

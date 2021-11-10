@@ -34,7 +34,11 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem;
+    
+    padding-top: 1.0rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+
 }
 
 .hamburger {
@@ -55,26 +59,26 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: x-large;
 }
 
 .nav-item {
     margin-left: 5rem;
+    font-size: 1.5rem;
 }
 
 .nav-link{
     font-weight: 400;
-    color: #475569;
+    color: #101010;
 }
 
 .nav-link:hover{
-    color: #482ff7;
+    color: #2874A6;
 }
 
 .nav-logo {
     font-size: 2.1rem;
     font-weight: 500;
-    color: #482ff7;
+    color: #2874A6;
 }
 
 @media only screen and (max-width: 768px) {
@@ -144,10 +148,42 @@ a {
 .desc-caroussel p{
     text-align: center;
     font-size: x-large;
-    color: darkslategrey;
+    color: #101010;
     font-family: 'Permanent Marker', cursive;
 }
 
-.mint{
-    
+#root{
+    width: 100%;
+    height: 100%;
 }
+
+.ul-wallet{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.wallet{
+    color: darkviolet;
+}
+
+.balance{
+    color: darkviolet;
+}
+.remaining-li{
+    margin-right: 20.0rem;
+    font-size: 2.1rem;
+
+}
+
+.remaining{
+    color: #D35400;
+}
+
+.mint-button{
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
